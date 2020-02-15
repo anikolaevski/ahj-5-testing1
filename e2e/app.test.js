@@ -8,9 +8,9 @@ describe('INN/OGRN form', () => {
   beforeAll(async () => {
     browser = await puppetteer.launch({
       // Опции в методе launch нужно закомментировать при запуске в CI.
-      headless: false, // show gui
-      slowMo: 100,
-      devtools: true, // show devTools
+      // headless: false, // show gui
+      // slowMo: 100,
+      // devtools: true, // show devTools
     });
     page = await browser.newPage();
   });
